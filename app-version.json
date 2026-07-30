@@ -1,0 +1,15 @@
+{
+  "_comment": "Latest published build of each app. The apps poll /api/app/version, compare against their own versionCode, and offer an in-app update from the GitHub Release. Bump these in the same commit that publishes a new Release. minVersionCode marks builds too old to keep working (the update prompt becomes non-dismissible).",
+  "kids": {
+    "versionCode": 2,
+    "versionName": "0.2.0",
+    "minVersionCode": 1,
+    "notes": "এখন থেকে অ্যাপ নিজেই আপডেট নিতে পারবে — আর হাতে ইনস্টল করতে হবে না। ক্যামেরা, স্ক্রিন ও অডিও সংযোগ আগের চেয়ে ভালো কাজ করে।"
+  },
+  "parent": {
+    "versionCode": 2,
+    "versionName": "0.2.0",
+    "minVersionCode": 1,
+    "notes": "এখন থেকে অ্যাপ নিজেই আপডেট নিতে পারবে — আর হাতে ইনস্টল করতে হবে না। বাচ্চার অ্যাপের ইনস্টল লিংক ও লাইভ ভিডিও সংযোগ ঠিক করা হয়েছে।"
+  }
+}
