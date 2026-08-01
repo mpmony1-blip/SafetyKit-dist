@@ -1,10 +1,10 @@
 {
   "_comment": "Latest published build of each app. The apps poll /api/app/version, compare against their own versionCode, and offer an in-app update from the GitHub Release. Bump these in the same commit that publishes a new Release. minVersionCode marks builds too old to keep working (the update prompt becomes non-dismissible).",
   "kids": {
-    "versionCode": 3,
-    "versionName": "0.3.0",
+    "versionCode": 4,
+    "versionName": "0.4.0",
     "minVersionCode": 1,
-    "notes": "লাইভ ক্যামেরা/স্ক্রিন এখন আরও নির্ভরযোগ্য — দেখা শেষ হলে নিজে থেকেই বন্ধ হয়। ফোন রিস্টার্টের পরও সব ফিচার নিজে নিজে চালু হবে। নিরাপত্তা আরও মজবুত হয়েছে।"
+    "notes": "বড় স্থিতিশীলতা আপডেট: বারবার পারমিশন চাওয়া বন্ধ হয়েছে; সুরক্ষা ফিচার বন্ধ হয়ে গেলে ১৫ মিনিটের মধ্যে নিজে থেকে টের পায় ও জানায়; ব্যাটারি সেভিং-এ সার্ভিস বন্ধ হলে নিজে নিজে আবার চালু হয়। অ্যাপ ব্লকিং আরও স্থিতিশীল।"
   },
   "parent": {
     "versionCode": 4,
