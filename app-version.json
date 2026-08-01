@@ -1,15 +1,15 @@
 {
   "_comment": "Latest published build of each app. The apps poll /api/app/version, compare against their own versionCode, and offer an in-app update from the GitHub Release. Bump these in the same commit that publishes a new Release. minVersionCode marks builds too old to keep working (the update prompt becomes non-dismissible).",
   "kids": {
-    "versionCode": 2,
-    "versionName": "0.2.0",
+    "versionCode": 3,
+    "versionName": "0.3.0",
     "minVersionCode": 1,
-    "notes": "এখন থেকে অ্যাপ নিজেই আপডেট নিতে পারবে — আর হাতে ইনস্টল করতে হবে না। ক্যামেরা, স্ক্রিন ও অডিও সংযোগ আগের চেয়ে ভালো কাজ করে।"
+    "notes": "লাইভ ক্যামেরা/স্ক্রিন এখন আরও নির্ভরযোগ্য — দেখা শেষ হলে নিজে থেকেই বন্ধ হয়। ফোন রিস্টার্টের পরও সব ফিচার নিজে নিজে চালু হবে। নিরাপত্তা আরও মজবুত হয়েছে।"
   },
   "parent": {
-    "versionCode": 2,
-    "versionName": "0.2.0",
+    "versionCode": 3,
+    "versionName": "0.3.0",
     "minVersionCode": 1,
-    "notes": "এখন থেকে অ্যাপ নিজেই আপডেট নিতে পারবে — আর হাতে ইনস্টল করতে হবে না। বাচ্চার অ্যাপের ইনস্টল লিংক ও লাইভ ভিডিও সংযোগ ঠিক করা হয়েছে।"
+    "notes": "লাইভ ভিডিওতে সমস্যা হলে এখন কারণ দেখা যাবে ও আবার চেষ্টা করা যাবে। ম্যাপে নতুন 'এখনই খুঁজুন' বাটন — বাচ্চার তাজা লোকেশন সাথে সাথে আসবে। ইন্টারনেট সমস্যায় ভুল খালি তালিকা আর দেখাবে না।"
   }
 }
