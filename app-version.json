@@ -1,15 +1,15 @@
 {
   "_comment": "Latest published build of each app. The apps poll /api/app/version, compare against their own versionCode, and offer an in-app update from the GitHub Release. Bump these in the same commit that publishes a new Release. minVersionCode marks builds too old to keep working (the update prompt becomes non-dismissible).",
   "kids": {
-    "versionCode": 5,
-    "versionName": "0.4.1",
+    "versionCode": 6,
+    "versionName": "0.4.2",
     "minVersionCode": 1,
-    "notes": "স্ক্রিন শেয়ারে এখন আর 'একটি অ্যাপ / পুরো স্ক্রিন' বাছাই আসে না — সরাসরি পুরো স্ক্রিন শেয়ার হয়। সাথে ০.৪.০-এর সব স্থিতিশীলতা উন্নতি।"
+    "notes": "নতুন আপডেট এখন নিজে থেকেই ওয়াই-ফাইতে নেমে যাবে — শুধু একবার \"ইনস্টল\" চাপলেই হবে, ডাউনলোডের জন্য আর অপেক্ষা করতে হবে না। মোবাইল ডেটায় নামবে না।"
   },
   "parent": {
-    "versionCode": 6,
-    "versionName": "0.3.3",
+    "versionCode": 7,
+    "versionName": "0.3.4",
     "minVersionCode": 1,
-    "notes": "বাচ্চার পেয়ারিং কোড এখন যেকোনো সময় আবার দেখতে পারবেন — কোড হারিয়ে গেলে নতুন কোডও নেওয়া যাবে, অন্য ফোনে সরানোর জন্যও। ভুল করে যোগ হওয়া বাচ্চা এখন মুছে ফেলা যাবে।"
+    "notes": "লাইভ ভিডিও না এলে এখন আসল কারণ দেখাবে (রিলে সার্ভারের সমস্যা কিনা), আন্দাজ নয়। আপডেটও নিজে থেকেই ওয়াই-ফাইতে নেমে যাবে। সাথে ০.৩.৩-এর পেয়ারিং কোড ও বাচ্চা মোছার সুবিধা।"
   }
 }
