@@ -1,15 +1,15 @@
 {
   "_comment": "Latest published build of each app. The apps poll /api/app/version, compare against their own versionCode, and offer an in-app update from the GitHub Release. Bump these in the same commit that publishes a new Release. minVersionCode marks builds too old to keep working (the update prompt becomes non-dismissible).",
   "kids": {
-    "versionCode": 6,
-    "versionName": "0.4.2",
+    "versionCode": 7,
+    "versionName": "0.4.3",
     "minVersionCode": 1,
-    "notes": "নতুন আপডেট এখন নিজে থেকেই ওয়াই-ফাইতে নেমে যাবে — শুধু একবার \"ইনস্টল\" চাপলেই হবে, ডাউনলোডের জন্য আর অপেক্ষা করতে হবে না। মোবাইল ডেটায় নামবে না।"
+    "notes": "পুরোনো ফোনেও (অ্যান্ড্রয়েড ৬ থেকে) এখন অ্যাপটি চলবে ও ইনস্টল হবে। ভেতরের কিছু ক্র্যাশ ঠিক করা হয়েছে।"
   },
   "parent": {
-    "versionCode": 7,
-    "versionName": "0.3.4",
+    "versionCode": 8,
+    "versionName": "0.4.0",
     "minVersionCode": 1,
-    "notes": "লাইভ ভিডিও না এলে এখন আসল কারণ দেখাবে (রিলে সার্ভারের সমস্যা কিনা), আন্দাজ নয়। আপডেটও নিজে থেকেই ওয়াই-ফাইতে নেমে যাবে। সাথে ০.৩.৩-এর পেয়ারিং কোড ও বাচ্চা মোছার সুবিধা।"
+    "notes": "অ্যাপের চেহারা নতুন। খোলার সাথে সাথেই উপরে দেখবেন সব ঠিক আছে কি না। নিচে চারটি বাটন — বাড়ি, মানচিত্র, অ্যালার্ট, আরও — তাই ম্যাপ ও অ্যালার্ট এক চাপেই। বাচ্চার পাতা এখন চারটি ভাগে সাজানো, আর বাংলা লেখা সব ফোনে একরকম ও পরিষ্কার দেখাবে।"
   }
 }
