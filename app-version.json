@@ -1,10 +1,10 @@
 {
   "_comment": "Latest published build of each app. The apps poll /api/app/version, compare against their own versionCode, and offer an in-app update from the GitHub Release. Bump these in the same commit that publishes a new Release. minVersionCode marks builds too old to keep working (the update prompt becomes non-dismissible).",
   "kids": {
-    "versionCode": 8,
-    "versionName": "0.5.0",
+    "versionCode": 9,
+    "versionName": "0.5.1",
     "minVersionCode": 1,
-    "notes": "এই আপডেটে দুটো বড় জিনিস: (১) নতুন \"সুরক্ষা লক\" — চালু থাকলে শিশু আর SafetyKit আনইনস্টল করতে বা এর অনুমতি (অ্যাপ ব্লকিং, অ্যাডমিন) বন্ধ করতে পারবে না; অভিভাবক একটি PIN দিয়ে লক করেন, বদলাতে PIN দিয়ে ৫ মিনিটের জন্য আনলক করা যায়। (২) স্ক্রিন দেখা এখন বাচ্চার ফোনে বারবার অনুমতি ছাড়াই কাজ করে — একবার চালু করলেই হয় (\"অ্যাপ ব্লকিং\" চালু থাকা লাগবে)।"
+    "notes": "এই আপডেটে দুটো বড় জিনিস: (১) নতুন \"সুরক্ষা লক\" — চালু থাকলে শিশু আর SafetyKit আনইনস্টল করতে বা এর অনুমতি (অ্যাপ ব্লকিং, অ্যাডমিন) বন্ধ করতে পারবে না; অভিভাবক একটি PIN দিয়ে লক করেন, বদলাতে PIN দিয়ে ৫ মিনিটের জন্য আনলক করা যায়। (২) স্ক্রিন দেখা এখন বাচ্চার ফোনে বারবার অনুমতি ছাড়াই কাজ করে (\"অ্যাপ ব্লকিং\" চালু থাকা লাগবে); লাল রেকর্ডিং চিহ্ন শুধু দেখার সময়েই থাকবে, দেখা শেষ হলে নিজেই বন্ধ হয়ে যাবে।"
   },
   "parent": {
     "versionCode": 10,
