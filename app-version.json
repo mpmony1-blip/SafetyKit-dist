@@ -1,10 +1,10 @@
 {
   "_comment": "Latest published build of each app. The apps poll /api/app/version, compare against their own versionCode, and offer an in-app update from the GitHub Release. Bump these in the same commit that publishes a new Release. minVersionCode marks builds too old to keep working (the update prompt becomes non-dismissible).",
   "kids": {
-    "versionCode": 11,
-    "versionName": "0.5.3",
+    "versionCode": 12,
+    "versionName": "0.5.4",
     "minVersionCode": 1,
-    "notes": "গুরুত্বপূর্ণ: ইনস্টলের পর প্রথমবার লোকেশন অনুমতি দেওয়ার আগে অ্যাপটি বন্ধ হয়ে যাওয়ার (ক্র্যাশের) সমস্যা ঠিক করা হয়েছে। এছাড়া: নতুন \"সুরক্ষা লক\" (PIN দিয়ে আনইনস্টল/অনুমতি বন্ধ ঠেকানো), আর স্ক্রিন দেখা এখন বারবার অনুমতি ছাড়াই কাজ করে (\"অ্যাপ ব্লকিং\" চালু থাকা লাগবে); লাল রেকর্ডিং চিহ্ন শুধু দেখার সময়েই থাকবে।"
+    "notes": "সেটআপ পাতায় এখন উপরে পরিষ্কার দেখাবে আর কী কী চালু করা বাকি (যেমন আনইনস্টল সুরক্ষা) — যাতে কোনো ধাপ বাদ না পড়ে। এছাড়া: ইনস্টলের পর প্রথমবারের ক্র্যাশ ঠিক করা হয়েছে; নতুন \"সুরক্ষা লক\"; আর স্ক্রিন দেখা বারবার অনুমতি ছাড়াই কাজ করে (\"অ্যাপ ব্লকিং\" চালু থাকা লাগবে), লাল চিহ্ন শুধু দেখার সময়েই থাকবে।"
   },
   "parent": {
     "versionCode": 10,
